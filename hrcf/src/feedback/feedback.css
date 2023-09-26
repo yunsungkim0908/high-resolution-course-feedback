@@ -1,0 +1,22 @@
+body {
+    background-color: rgb(158, 166, 254);
+
+}
+
+.container {
+    max-width: 800px;
+}
+
+.question-text {
+    font-size:24px;
+    font-weight: 400;
+}
+
+
+[type='radio'] {
+    display: none; 
+    }
+
+    .radio-button-fixed {
+        min-width: 100px;
+    }
