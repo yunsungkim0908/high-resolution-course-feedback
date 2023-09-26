@@ -23,19 +23,8 @@ export const Dashboard = (prop) => {
 
   const uiConfig = {
     signInOptions: [
-      {
-        provider: firebase.auth.GoogleAuthProvider.PROVIDER_ID,
-        customParameters: {
-          hd: 'stanford.edu',
-          auth_type: 'reauthenticate',
-          prompt: 'select_account'
-        },
-        providerName:'Stanford',
-        buttonColor:'red',
-        iconUrl:'https://identity.stanford.edu/wp-content/uploads/2020/07/SU_SealColor_web3-1.png'
-      },
-      // firebase.auth.GoogleAuthProvider.PROVIDER_ID,
-      // firebase.auth.EmailAuthProvider.PROVIDER_ID
+      firebase.auth.GoogleAuthProvider.PROVIDER_ID,
+      firebase.auth.EmailAuthProvider.PROVIDER_ID
     ],
     signInFlow: 'redirect',
     immediateFederatedRedirect:true
