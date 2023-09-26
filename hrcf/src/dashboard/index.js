@@ -81,7 +81,6 @@ export const Dashboard = (prop) => {
   } else {
     return (
       <>
-        <Loading/>
         <StyledFirebaseAuth uiConfig={uiConfig} firebaseAuth={firebase.auth()} />
       </>
     )
