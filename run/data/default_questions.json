@@ -1,0 +1,27 @@
+{
+    "questions": [
+        {
+            "type": "Text",
+            "qid": "default0",
+            "prompt": "What did you like about the course so far?",
+            "placeholder": "Write some encouragement for your teaching team!"
+        },
+        {
+            "qid": "default1",
+            "type": "Text",
+            "prompt": "Is anything from class still confusing to you?",
+            "placeholder": "Learning is a perennial process."
+        },
+        {
+            "qid": "default2",
+            "type": "Text",
+            "prompt": "Is there anything the teaching team should know?",
+            "placeholder": "There is always a better way."
+        },
+        {
+            "prompt": "How would you rate your course experience so far?",
+            "qid": "default3",
+            "type": "Rating (Qualitative)"
+        }
+    ]
+}
